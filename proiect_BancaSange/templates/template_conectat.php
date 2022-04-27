@@ -21,19 +21,6 @@
             </nav>
         </div>
 </div>
-
-<!---->
-<!--<nav id="meniu">-->
-<!--    <ul>-->
-<!--        <li><a href="index.php">Profil</a></li>-->
-<!--        <li><a href="index.php?page=1">Adauga Programare</a></li>-->
-<!--        <li><a href="index.php?page=2">Lista Produse</a></li>-->
-<!--        <li><a href="index.php?page=3">Cos Cumparaturi</a></li>-->
-<!--        <li><a href="index.php?page=4">Comenzile mele</a></li>-->
-<!--        <li><a href="index.php?logout">Deconectare</a></li>-->
-<!--    </ul>-->
-<!--</nav>-->
-
 <?php
 if (isset($_GET['logout'])) {
     session_destroy();
@@ -54,18 +41,6 @@ if (isset($_GET['page'])) {
         case 2:
            require_once 'pagini/conectat/programari.php';
            break;
-//        case 3:
-//            require_once 'pagini/conectat/cos_cumparaturi.php';
-//            break;
-//        case 4:
-//            require_once 'pagini/conectat/comenzi.php';
-//            break;
-//        case 'thank-you':
-//            require_once 'pagini/conectat/thank_you.php';
-//            break;
-//        case 'produs':
-//            require_once 'pagini/conectat/produs.php';
-//            break;
         default:
             require_once 'pagini/eroare.php';
             break;

@@ -93,7 +93,7 @@ function solicitare($nume, $prenume, $conditie, $telefon, $grupaSange, $banca)
      
      $query = "UPDATE tblDonator SET parolaDonator = '$newPass' WHERE emailDonator='$email'";
   
-     return mysqli_query ($link, $query); //true sau false
+     return mysqli_query ($link, $query);
      
   }
   function adaugaProgramare($oraProgramare, $dataProgramare, $codBanca, $codDonator)

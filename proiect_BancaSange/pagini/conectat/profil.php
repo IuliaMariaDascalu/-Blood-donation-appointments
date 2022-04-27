@@ -27,7 +27,6 @@ if (isset($_POST['schimba'])) {
     $oldPass = $_POST['actuala'];
     $newPass = $_POST['noua'];
     if (md5($oldPass) == $user['parolaDonator']) {
-        //corespunde cu encodarea din BD actualizez
         $rezultatActualizare = actualizeazaParola($_SESSION['user'], $newPass);
         print $rezultatActualizare ? '<div style="color: green;">Parola actualizata cu succes</div>' : '<div style="color: #CA0916;">Eroare la actualizare</div>';
     } else{

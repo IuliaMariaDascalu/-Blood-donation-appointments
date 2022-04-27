@@ -68,7 +68,7 @@ if (isset($_POST['trimite'])) {
             print "<li style='margin-left: 450px; color: red;'> $eroare </li>";
         }
         print '</ul>';
-        return; //opreste executia
+        return; 
     } else {
         $rezultatInregistrare = inregistrare($nume, $prenume, $dataNastere, $nrTelefon, $grupaSange, $greutate, $email, $parola);
     }

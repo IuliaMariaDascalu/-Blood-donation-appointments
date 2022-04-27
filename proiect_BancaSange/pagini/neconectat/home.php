@@ -18,10 +18,8 @@
         </ul>
         <h4 style="color:darkblue; ">Recomandari înainte de donare:</h4>
         <ul ">
-            <li> Să nu se consume băuturi alcoolice cu cel puțin 48 de ore înaintea donării.
-            </li>
-            <li>Se recomandă odihnă înainte de a dona.
-            </li>
+            <li> Să nu se consume băuturi alcoolice cu cel puțin 48 de ore înaintea donării.</li>
+            <li>Se recomandă odihnă înainte de a dona. </li>
         </ul>
         <h4 style="color:darkblue;" >Recomandări în ziua donării</h4>
         <ul>

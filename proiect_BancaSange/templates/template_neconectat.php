@@ -20,22 +20,10 @@
                 </div>
             </nav>
         </div>
-    </div>
-</nav>
+    </nav>
+</div>
 <br><br><br>
 
-<!--<nav id="sidebar">-->
-<!--    <div class="d-flex" id="wrapper">-->
-<!--        <div class="border-end border-bottom bg-white" id="sidebar-wrapper">-->
-<!--            <div class="list-group list-group-flush">-->
-<!--                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="index.php">Conectare</a>-->
-<!--                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="index.php?page=1">Acasa</a>-->
-<!--                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="index.php?page=2">Inregistrare</a>-->
-<!--                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="index.php?page=3">Solicita</a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</nav>-->
 
 <?php
 if (isset ($_GET['page'])) {

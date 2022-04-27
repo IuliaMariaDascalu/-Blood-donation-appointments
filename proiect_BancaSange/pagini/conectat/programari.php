@@ -1,7 +1,6 @@
 <?php
 $user = preiaUtilizatorDupaEmail($_SESSION['user']);
 $programari = preiaProgramari($user['idDonator']);
-//$idProgramare = preiaIdProgramare();
 if (empty($programari)) {
     print "<h3 style='text-align: center' color: #b30606;>Nu exista programari!!</h3>";
     return;
@@ -25,7 +24,6 @@ if (empty($programari)) {
                             <td><?php print $programare['numeBanca']; ?></td>
                             <td><a href="index.php?page=2&anuleaza=<?php print $programare['idDoneaza'];?>"><i class="fa fa-trash"></i></a></td>
                         </tr>
-                        <!--<button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i></button>-->
                     <?php } ?>
                 </table>
             </form>
